@@ -313,3 +313,14 @@ figure {
     border-radius: 2px;
   }
 
+/* ---------------- RESPONSIVE --------------------- */
+
+ @media screen and (max-width: 1300px){
+      #intro {
+        flex-direction: column;
+      }
+
+      #video {
+        display: none;
+      }
+ }
